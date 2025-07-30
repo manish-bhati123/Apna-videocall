@@ -137,5 +137,5 @@ export default function Authentication() {
         onClose={() => setOpen(false)}
       />
     </ThemeProvider>
-  );
+  )
 }

@@ -53,7 +53,7 @@ export default function History() {
                     </Card>
                 ))
             ) : (
-                <Typography>No meeting history found.</Typography>
+                <Typography>No meeting history found..</Typography>
             )}
         </div>
     );

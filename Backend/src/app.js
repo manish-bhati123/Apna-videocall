@@ -11,7 +11,7 @@ import cors from "cors";
 import userRoutes from "./Routes/users.routes.js";  
 
 const app = express();
-app.use(cookieParser())
+app.use(cookieParser());
 const server = createServer(app);
 const io = connectToSocket(server);
 

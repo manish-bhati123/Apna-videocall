@@ -29,7 +29,7 @@ export default function Landingpage() {
     router("/aljk23"); // Proceed as guest if already logged in
   }
 }}>
-  Join as Guest
+  Join As Guest
 </p>
 
           {!isLoggedIn ? (

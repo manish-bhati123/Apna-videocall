@@ -38,7 +38,7 @@ function HomeComponent() {
 
                     <IconButton onClick={
                         () => {
-                            navigate("/")
+                            navigate("/");
                         }
                     }>
                         <KeyboardBackspaceIcon />
